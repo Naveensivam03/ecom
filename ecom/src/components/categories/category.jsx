@@ -6,26 +6,11 @@ import image4 from '../../assets/category/image4.png';
 import image5 from '../../assets/category/image5.png';
 
 const categories = [
-  {
-    title: "Anime",
-    image: image1, // Use the imported variable directly
-  },
-  {
-    title: "Motivation",
-    image: image2,
-  },
-  {
-    title: "One Piece",
-    image: image3,
-  },
-  {
-    title: "Top Collections",
-    image: image4,
-  },
-  {
-    title: "Death Note",
-    image: image5,
-  },
+  { title: "Anime", image: image1 },
+  { title: "Motivation", image: image2 },
+  { title: "One Piece", image: image3 },
+  { title: "Top Collections", image: image4 },
+  { title: "Death Note", image: image5 },
 ];
 
 const Category = () => {
@@ -38,7 +23,7 @@ const Category = () => {
         <div className="grid-layout">
           {categories.map((cat, idx) => (
             <div className={`grid-item item-${idx + 1}`} key={idx}>
-              <img src={cat.image} alt={cat.title} />
+              <img className="category-img" src={cat.image} alt={cat.title} />
               <div className="category-overlay">
                 <h3>{cat.title}</h3>
                 <button className="view-btn">view collections →</button>
