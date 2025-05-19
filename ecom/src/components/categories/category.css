@@ -3,7 +3,7 @@
     height: 100%;
     padding: 20px;
     background-color: white;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .category-container {
@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .grid-layout {
@@ -106,7 +106,7 @@
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 40px;
-    margin-top: 0;
+    margin-top: 40px;
 }
 
 .category-heading .highlight {
