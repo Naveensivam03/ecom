@@ -35,7 +35,7 @@ const About = () => {
             <div className="info-card">
               <h2>Our Mission</h2>
               <p>
-                At KMIZRD, we’re more than a t-shirt brand—we’re creators of fashion experiences. Our mission is to empower you to express your unique identity through high-quality, custom apparel that blends creativity, comfort, and confidence.
+                At KMIZRD, we're more than a t-shirt brand—we're creators of fashion experiences. Our mission is to empower you to express your unique identity through high-quality, custom apparel that blends creativity, comfort, and confidence.
               </p>
             </div>
           </div>
@@ -50,11 +50,6 @@ const About = () => {
               </div>
             ))}
           </div>
-        </section>
-        <section className="cta">
-          <a href="/shop" className="cta-button">
-            Discover Your Style →
-          </a>
         </section>
       </div>
     </div>
